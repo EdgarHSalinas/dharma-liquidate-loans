@@ -1,0 +1,56 @@
+[
+  {
+    "id": 6370,
+    "principalAmount": 0.1388,
+    "collateralAmount": 0.001,
+    "principalTokenId": 4,
+    "collateralTokenId": 1,
+    "filledAt": "1558650159442",
+    "durationInDays": 90
+  },
+  {
+    "id": 6369,
+    "principalAmount": 0.5,
+    "collateralAmount": 0.003,
+    "principalTokenId": 4,
+    "collateralTokenId": 1,
+    "filledAt": "1558650131869",
+    "durationInDays": 90
+  },
+  {
+    "id": 6368,
+    "principalAmount": 0.057,
+    "collateralAmount": 0,
+    "principalTokenId": 4,
+    "collateralTokenId": 1,
+    "filledAt": "1558650098653",
+    "durationInDays": 90
+  },
+  {
+    "id": 6367,
+    "principalAmount": 2.82,
+    "collateralAmount": 0.001,
+    "principalTokenId": 4,
+    "collateralTokenId": 1,
+    "filledAt": "1558649513417",
+    "durationInDays": 90
+  },
+  {
+    "id": 5878,
+    "principalAmount": 350,
+    "collateralAmount": 3.179,
+    "principalTokenId": null,
+    "collateralTokenId": 1,
+    "filledAt": "1557521986691",
+    "durationInDays": 90
+  },
+  {
+    "id": 5877,
+    "principalAmount": 0.006,
+    "collateralAmount": 1.539,
+    "principalTokenId": null,
+    "collateralTokenId": 4,
+    "filledAt": "1550787759442",
+    "durationInDays": 90
+  }
+]
