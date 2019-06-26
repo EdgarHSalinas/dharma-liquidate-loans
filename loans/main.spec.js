@@ -9,11 +9,11 @@ const {
   MS_PER_DAY
 } = require('./main');
 
-const loansTest = require('./loans-test.json');
-const etherTestPrice = require('./eth-test-price');
+const loansTest = require('./loans-test.json'); //?
+const etherTestPrice = require('./eth-test-price'); //?
 
 const expect = chai.expect;
-const dateToTest = new Date(1558650159442);
+const dateToTest = new Date(1558650159442); //?
 
 describe('getMinEtherPricesForGivenDate', () => {
   describe('when given the current date', () => {
@@ -33,7 +33,7 @@ describe('getLoansToLiquidateForDay', () => {
     it('returns an array with IDs', async () => {
       const minPrice = 244.9773;
 
-      const result = getLoansToLiquidateForDay(dateToTest, loansTest, minPrice);
+      const result = getLoansToLiquidateForDay(dateToTest, loansTest, minPrice); //?
 
       expect(result).to.eql([6368, 6367, 5877]);
     });
@@ -74,13 +74,9 @@ describe('isLoanPastDue', () => {
 describe('getLiquidatableLoans', () => {
   describe('when given the current date', () => {
     it('returns an array with loan IDs to liquidate', async () => {
-      const result = getLiquidatableLoans(
-        dateToTest,
-        loansTest,
-        etherTestPrice
-      );
+      const result = getLiquidatableLoans(dateToTest); //?
 
-      const resultAwait = await result;
+      const resultAwait = await result; //?
 
       expect(resultAwait).to.eql([
         6368,
@@ -95,3 +91,7 @@ describe('getLiquidatableLoans', () => {
     });
   });
 });
+
+if (typeof global.runQuokkaMochaBdd === 'function') {
+  runQuokkaMochaBdd();
+}

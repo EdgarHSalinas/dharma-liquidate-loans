@@ -14,7 +14,7 @@
  *
  */
 
-const loans = require('../loans.json');
+const loans = require('../loans.json'); //?
 const etherPrice = require('../eth-price.json');
 const tokens = require('../tokens.json');
 
